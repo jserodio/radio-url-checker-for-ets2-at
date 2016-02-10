@@ -8,7 +8,7 @@ https://github.com/jserodio/radio-url-checker-for-ets2-at/releases
 ***
 # Español
 ## ¿Qué es esto?
-_Esta aplicación sirve para comprobar si hay algún link de las radios caido en tu live_streams.sii. Compatible tanto para Euro Truck Simulator 2 (ETS2) y American Truck Simulator (ATS)._
+Esta aplicación sirve para comprobar si hay algún link de las radios caido en tu live_streams.sii. Compatible tanto para Euro Truck Simulator 2 (ETS2) y American Truck Simulator (ATS).
 ## Requisitos?
 Instala java.
 ## ¿Dónde me lo descargo?
