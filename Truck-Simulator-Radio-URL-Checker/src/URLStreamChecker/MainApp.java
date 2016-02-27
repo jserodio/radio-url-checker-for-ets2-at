@@ -63,7 +63,7 @@ public class MainApp {
 	} // main
 	
 	private static void waitForUserInput(){
-		System.out.println("Press any key to exit...");
+		System.out.println("Press Enter to exit...");
 		Scanner keyboard = new Scanner(System.in);
 		keyboard.nextLine();
 		keyboard.close();
