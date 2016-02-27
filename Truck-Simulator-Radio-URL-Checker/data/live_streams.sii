@@ -1,0 +1,28 @@
+SiiNunit
+{
+live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
+ stream_data[]: "http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1"
+ stream_data[]: "http://5243.live.streamtheworld.com/M80RADIO_SC|M80 Radio|80s|ES|128|1"
+ stream_data[]: "http://13373.live.streamtheworld.com/LOS40_SC|Los 40 Principales|\xc3\x89xitos|ES|128|1"
+ stream_data[]: "http://stream.irratia.net:8000|EuropaFM|\xc3\x89xitos|ES|128|1"
+ stream_data[]: "http://hitfm.es.audio1.glb.ipercast.net:8000/kissfm.es/mp3|KissFM|80s|ES|128|1"
+ stream_data[]: "http://195.55.74.204/cope/cadena100.mp3|Cadena 100|Pop|ES|128|1"
+ stream_data[]: "http://10883.live.streamtheworld.com/CADENADIAL_SC|Cadena Dial|Pop|ES|128|1"
+ stream_data[]: "http://195.55.74.205/rtve/radio1.mp3|RNE|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.206/rtve/radio3.mp3|Radio 3 RNE|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.208/rtve/radio4.mp3|Radio 4 RNE|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.210/rtve/radio5.mp3|Radio 5 RNE|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.205/rtve/radioexterior.mp3|Radio Exterior|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.206/rtve/radioclasica.mp3|Radio cl\xc3\xa1sica RNE|Classic|ES|128|1"
+ stream_data[]: "http://195.10.2.95/cope/rockfm-low.mp3|Rock FM|Rock|ES|128|1"
+ stream_data[]: "http://10883.live.streamtheworld.com/CADENASER_SC|Cadena SER|Pop|ES|128|1"
+ stream_data[]: "http://hitfm.es.audio1.glb.ipercast.net:8000/hitfm.es/mp3|Hit FM|\xc3\x89xitos|ES|128|1"
+ stream_data[]: "http://streaming105.radiocat.net:80/|RAC 105|\xc3\x89xitos|ES|96|1"
+ stream_data[]: "http://5243.live.streamtheworld.com:443/RADIOLE_SC|Radio ole|radio|ES|128|1"
+ stream_data[]: "http://195.10.2.98/cope/megastar-low.mp3|MEGASTAR FM|\xc3\x89xitos|ES|128|1"
+ stream_data[]: "http://stream.ondaceronoroeste.es/ondacero.mp3|Onda cero|Pop|ES|128|1"
+ stream_data[]: "http://195.55.74.210/cope/net1-low.mp3|Radio Cope|radio|ES|128|1"
+ stream_data[]: "http://5293.live.streamtheworld.com:3690/MAXIMAFM_SC|Maxima FM|Electronica|ES|128|1"
+}
+
+}
