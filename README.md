@@ -15,4 +15,4 @@ Instala java.
 https://github.com/jserodio/radio-url-checker-for-ets2-at/releases
 ***
 # Preview
-![](http://images.akamai.steamusercontent.com/ugc/313367698742855526/19BA8EB2BA704A5976BD29AD6D45B2ED1C9D904C/)
+![](http://images.akamai.steamusercontent.com/ugc/313368966859902212/EC4A984BDA04983437047AA1E8FBD4895556F3C1/)
