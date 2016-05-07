@@ -1,5 +1,6 @@
 package URLStreamChecker;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -7,7 +8,7 @@ public class MainApp {
 	
 	public static void main(String[] args) throws Exception {
 		try {
-			// args[0] will be the path of the file i.e. "live_streams.sii"
+			// args[0] will be the path of the file i.e. "data/live_streams.sii"
 			String path = args[0];
 
 			System.out.println("Checking for broken links...");
@@ -15,35 +16,32 @@ public class MainApp {
 			System.out.println("Please wait until it finishes.");
 			
 			// singleton pattern (see File.java for further information)
-			Iterator<String> it = File.getInstance().load(path);
-			// this string will be storing each radio URL
-			String stream;
+			ArrayList<String> STREAMLINKS = File.getInstance().load(path);
 			
-			while(it.hasNext()){
+			for (String stream : STREAMLINKS) {
 				// iterating trought each line of radio previously loaded from the file	
-				stream = it.next();
 				int code = File.getInstance().isURLbroken(stream);
 				
 				switch (code){
-					case 404: 	System.out.println("Link down: ");
-								System.out.println(stream);
-								System.out.println("Code " + code +'\n');
-						break;
-					case 0: 	System.out.println("Link down: ");
-								System.out.println(stream);
-								System.out.println("Code " + code +'\n');
-						break;
-					case 1:	 	System.out.println("Link down: ");
-								System.out.println(stream);
-								System.out.println("Code " + code +'\n');
-						break;
-					case -1: 	System.out.println("Warning: ");
-								System.out.println(stream);
-								System.out.println("Code " + code +'\n');
-						break;
-					default:	break;								
+				case 404: 	System.out.println("Link down: ");
+							System.out.println(stream);
+							System.out.println("Code " + code +'\n');
+					break;
+				case 0: 	System.out.println("Link down: ");
+							System.out.println(stream);
+							System.out.println("Code " + code +'\n');
+					break;
+				case 1:	 	System.out.println("Link down: ");
+							System.out.println(stream);
+							System.out.println("Code " + code +'\n');
+					break;
+				case -1: 	System.out.println("Warning: ");
+							System.out.println(stream);
+							System.out.println("Code " + code +'\n');
+					break;
+				default:	break;								
 				} // switch end
-			} // while end
+			}
 			
 			System.out.println("Finished.");
 			waitForUserInput();

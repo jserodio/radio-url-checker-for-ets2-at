@@ -31,7 +31,7 @@ public class File {
 	 * @return			String iterator containing each radio link. 
 	 * 					
 	 */
-	public Iterator<String> load (String path) {
+	public ArrayList<String> load (String path) {
 		try {
 		
 			// We open live_streams.sii where all our radios are.
@@ -68,10 +68,8 @@ public class File {
 			input.close();
 			
 			System.out.println("The file has been loaded." + '\n');
-			
-			Iterator<String> it = Iterator();
 		
-			return it;
+			return STREAM;
 			
 		} catch (FileNotFoundException e) {
 			System.out.println('\n'+ "Can't find the file: live_streams.sii");
@@ -81,11 +79,6 @@ public class File {
 			return null;
 		}
 			
-	}
-	
-	private Iterator<String> Iterator(){
-		Iterator<String> it = STREAM.iterator();
-		return it;
 	}
 	
 	/**
