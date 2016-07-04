@@ -38,8 +38,7 @@ public class MainApp {
 							System.out.println(stream);
 							System.out.println("Code " + code +'\n');
 					break;
-				default:	System.out.println("Server not found: ");
-							System.out.println(stream);
+				default:
 					break;								
 				} // switch end
 			}
