@@ -18,7 +18,7 @@ public class MainApp {
 			ArrayList<String> STREAMLINKS = File.getInstance().load(path);
 			
 			for (String stream : STREAMLINKS) {
-				// iterating trought each line of radio previously loaded from the file	
+				// iterating trough each line of radio previously loaded from the file	
 				int code = File.getInstance().isURLbroken(stream);
 				
 				switch (code){
@@ -38,7 +38,9 @@ public class MainApp {
 							System.out.println(stream);
 							System.out.println("Code " + code +'\n');
 					break;
-				default:	break;								
+				default:	System.out.println("Server not found: ");
+							System.out.println(stream);
+					break;								
 				} // switch end
 			}
 			

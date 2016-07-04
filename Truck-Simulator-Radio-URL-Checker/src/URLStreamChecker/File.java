@@ -19,7 +19,7 @@ public class File {
 		return INSTANCE;
 	}
 	
-	// This is the ArrayList where each radio url is going to be stored
+	// This is the ArrayList where each radio URL is going to be stored
 	private static final ArrayList<String> STREAM = new ArrayList<String>();
 
 	/**
@@ -46,15 +46,15 @@ public class File {
 				if(line.trim().length() == 0){
 					continue;
 				}
-				// Split the line in to an array f[] with different possitions
+				// Split the line in to an array f[] with different positions
 				// Before splitting
-				// linea ⬅️   stream_data[]: "http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1"
+				// line ⬅️   stream_data[]: "http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1"
 				// After splitting
 				// f[1] ⬅️   http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1
 				String f[] = line.split("\"");
 				
 				if(f.length>1){
-					// Split the f[1] in to an array g[] with different possitions
+					// Split the f[1] in to an array g[] with different positions
 					// Before splitting
 					// f[1] ⬅️   http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1
 					// After splitting
@@ -74,7 +74,7 @@ public class File {
 			System.out.println('\n'+ "Can't find the file: live_streams.sii");
 			System.out.println("The path provided was: " + path);
 			System.out.println("Make sure the file and this app are in the same folder.");
-			System.out.println("Email me ➡️ serodio.jose@protonmail.ch");
+			System.out.println("Email me ✉  serodio.jose@protonmail.ch");
 			return null;
 		}
 			
@@ -98,7 +98,7 @@ public class File {
 			// Convert singleLink to URL.
 			URL url = new URL(singleLink);
 			
-			// Open the connection to url.
+			// Open the connection to URL.
 			c = (HttpURLConnection) url.openConnection();
 			
 			// Set the connection timeout: if unable to connect within 17 seconds, connection will time out.
