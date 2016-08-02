@@ -32,14 +32,16 @@ public class MainApp {
 					break;
 				case 1:	 	System.out.println("Link down: ");
 							System.out.println(stream);
-							System.out.println("Code " + code +'\n');
+							System.out.println("Code " + code +": Timeout.\n");
+					break;
+				case 2:	 	System.out.println("Link down: ");
+							System.out.println(stream);
+							System.out.println("Code " + code +": Timeout.\n");
 					break;
 				case -1: 	System.out.println("Warning: ");
 							System.out.println(stream);
 							System.out.println("Code " + code +'\n');
 					break;
-				default:
-					break;								
 				} // switch end
 			}
 			
