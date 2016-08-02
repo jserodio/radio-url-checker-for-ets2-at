@@ -1,8 +1,8 @@
 # English
 ## What is this?
-This app checks if any of your radios in your live_streams.sii file is down. This is compatible with Euro Truck Simulator 2 and American Truck Simulator.
-Euro Truck Simulator 2 Steam Guide: http://steamcommunity.com/sharedfiles/filedetails/?id=324276043
-American Truck Simulator Steam Guide: http://steamcommunity.com/sharedfiles/filedetails/?id=614561246
+This app checks if any of your radios in your live_streams.sii file is down. This is compatible with Euro Truck Simulator 2 and American Truck Simulator.  
+- Euro Truck Simulator 2 Steam Guide: http://steamcommunity.com/sharedfiles/filedetails/?id=324276043  
+- American Truck Simulator Steam Guide: http://steamcommunity.com/sharedfiles/filedetails/?id=614561246
 
 ## Requirements?
 Just install Java.
