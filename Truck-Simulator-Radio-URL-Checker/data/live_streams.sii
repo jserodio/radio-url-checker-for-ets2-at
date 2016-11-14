@@ -1,8 +1,8 @@
 SiiNunit
 {
 live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
- stream_data[]: "http://radio.truckers.fm/stream|truckers.fm|Bonus|ETS2MP|128|1"
- stream_data[]: "http://5243.live.streamtheworld.com/M80RADIO_SC|M80 Radio|80s|ES|128|1"
+ stream_data[]: "http://radio.truckers.fm/|truckers.fm|Bonus|ETS2MP|128|1"
+ stream_data[]: "http://13373.live.streamtheworld.com/M80RADIO_SC|M80 Radio|80s|ES|128|1"
  stream_data[]: "http://13373.live.streamtheworld.com/LOS40_SC|Los 40 Principales|\xc3\x89xitos|ES|128|1"
  stream_data[]: "http://stream.irratia.net:8000|EuropaFM|\xc3\x89xitos|ES|128|1"
  stream_data[]: "http://hitfm.es.audio1.glb.ipercast.net:8000/kissfm.es/mp3|KissFM|80s|ES|128|1"
@@ -17,13 +17,16 @@ live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
  stream_data[]: "http://195.55.74.205/cope/rockfm.mp3|Rock FM|Rock|ES|128|1"
  stream_data[]: "http://10883.live.streamtheworld.com/CADENASER_SC|Cadena SER|Pop|ES|128|1"
  stream_data[]: "http://hitfm.es.audio1.glb.ipercast.net:8000/hitfm.es/mp3|Hit FM|\xc3\x89xitos|ES|128|1"
- stream_data[]: "http://streaming105.radiocat.net:80/|RAC 105|\xc3\x89xitos|ES|96|1"
- stream_data[]: "http://xcast3.radiocat.net/|RAC 1|\xc3\x89xitos|ES|96|1"
- stream_data[]: "http://5243.live.streamtheworld.com:443/RADIOLE_SC|Radio ole|radio|ES|128|1"
- stream_data[]: "http://195.10.10.206/cope/megastar.mp3|MEGASTAR FM|\xc3\x89xitos|ES|128|1"
- stream_data[]: "http://stream.ondaceronoroeste.es/ondacero.mp3|Onda cero|Pop|ES|128|1"
+ stream_data[]: "http://streaming105.radiocat.net:8090|RAC105 FM|\xc3\x89xitos|CAT|96|1"
+ stream_data[]: "http://87.98.226.14:8090|RAC105 80S|\xc3\x89xitos|CAT|96|1"
+ stream_data[]: "http://87.98.226.14:8092|RAC105 Soft|\xc3\x89xitos|CAT|96|1"
+ stream_data[]: "http://xcast3.radiocat.net/|RAC 1|\xc3\x89xitos|CAT|96|1"
+ stream_data[]: "http://195.55.74.206/flaix/shoutcastmp3.mp3|Flaix FM|Musica|CAT|128|1"
+ stream_data[]: "http://208.92.53.90:443/RADIOLE_SC|Radio ole|radio|ES|128|1"
+ stream_data[]: "http://195.55.74.203/cope/megastar.mp3|MEGASTAR FM|\xc3\x89xitos|ES|128|1"
+ stream_data[]: "http://icecast-streaming.nice264.com/bilbao|Onda cero|Pop|ES|128|1"
  stream_data[]: "http://195.55.74.212/cope/net1.mp3|Radio Cope|radio|ES|128|1"
- stream_data[]: "http://5293.live.streamtheworld.com:3690/MAXIMAFM_SC|Maxima FM|Electronica|ES|128|1"
+ stream_data[]: "http://208.92.53.76:443/MAXIMAFM_SC|Maxima FM|Electronica|ES|128|1"
  stream_data[]: "http://audio-online.net:2300/live|Loca FM|Musica|ES|128|1"
 }
 
