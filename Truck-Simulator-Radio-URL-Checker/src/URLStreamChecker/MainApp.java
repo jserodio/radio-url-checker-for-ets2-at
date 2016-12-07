@@ -38,9 +38,9 @@ public class MainApp {
 							System.out.println(stream);
 							System.out.println("Code " + code +": Timeout.\n");
 					break;
-				case -1: 	System.out.println("Warning: ");
-							System.out.println(stream);
-							System.out.println("Code " + code +'\n');
+				case -1: 	//System.out.println("Warning: ");
+							//System.out.println(stream);
+							//System.out.println("Code " + code +'\n');
 					break;
 				} // switch end
 			}
