@@ -8,8 +8,8 @@ live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
  stream_data[]: "http://kissfm.kissfmradio.cires21.com/kissfm.mp3|Kiss FM|Adult contemporary|ES|128|1"
  stream_data[]: "http://195.55.74.212/cope/cadena100-low.mp3|Cadena 100|Pop|ES|128|1"
  stream_data[]: "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_SC|Cadena Dial|Pop|ES|128|1"
- stream_data[]: "http://rne.rtveradio.cires21.com/rne.mp3|RNE|Nacional|ES|128|1"
- stream_data[]: "http://radio3.rtveradio.cires21.com/radio3.mp3|Radio 3 RNE|Nacional|ES|128|1"
+ stream_data[]: "http://tunein-mp3-rtve.flumotion.com/rtve/rne-tunein.mp3|RNE|Nacional|ES|128|1"
+ stream_data[]: "http://195.55.74.221/rtve/radio3.mp3|Radio 3 RNE|Nacional|ES|128|1"
  stream_data[]: "http://radio4.rtveradio.cires21.com/radio4.mp3|Radio 4 RNE|Nacional|ES|128|1"
  stream_data[]: "http://radio5.rtveradio.cires21.com/radio5.mp3|Radio 5 RNE|Nacional|ES|128|1"
  stream_data[]: "http://radioexterior.rtveradio.cires21.com/radioexterior.mp3|Radio Exterior|Nacional|ES|128|1"
@@ -36,6 +36,8 @@ live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
  stream_data[]: "http://radiostream.flaixfm.cat:8000/|Flaix FM|Musica|CAT|128|1"
  stream_data[]: "http://catradio.ccma.audioemotion.stream.flumotion.com/ccma/catradio.mp3|CatRadio|radio|CAT|128|1"
  stream_data[]: "http://5.79.66.113:8004/stream|Radio Planeta|radio|ES|128|1"
+ stream_data[]: "http://audio-online.net:23500/|Loca FM|Dance|ES|128|1"
+ stream_data[]: "http://playerservices.streamtheworld.com/api/livestream-redirect/SER_VALENCIA_SC|SER Valencia|News/Sports|ES|64|1"
 }
 
 }
