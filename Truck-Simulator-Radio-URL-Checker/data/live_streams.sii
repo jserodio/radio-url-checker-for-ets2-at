@@ -5,7 +5,7 @@ live_stream_def : _nameless.0000.00A0.2CBE.4F00 {
  stream_data[]: "http://playerservices.streamtheworld.com/api/livestream-redirect/M80RADIO_SC|M80 Radio|80s|ES|128|1"
  stream_data[]: "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_SC|Los 40 Principales|\xc3\x89xitos|ES|128|1"
  stream_data[]: "http://stream.irratia.net/2|EuropaFM|\xc3\x89xitos|ES|128|1"
- stream_data[]: "http://hitfm.es.audio1.glb.ipercast.net:8000/kissfm.es/mp3|KissFM|80s|ES|128|1"
+ stream_data[]: "http://kissfm.kissfmradio.cires21.com/kissfm.mp3|Kiss FM|Adult contemporary|ES|128|1"
  stream_data[]: "http://195.55.74.212/cope/cadena100-low.mp3|Cadena 100|Pop|ES|128|1"
  stream_data[]: "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_SC|Cadena Dial|Pop|ES|128|1"
  stream_data[]: "http://rne.rtveradio.cires21.com/rne.mp3|RNE|Nacional|ES|128|1"
